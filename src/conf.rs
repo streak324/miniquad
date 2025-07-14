@@ -295,6 +295,7 @@ impl Default for Conf {
             fullscreen: true, //
             sample_count: 1,
             window_resizable: false, //
+            min_window_size: None,
             icon: Some(Icon::miniquad_logo()),
             platform: Default::default(),
         }
